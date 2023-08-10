@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","Hey","Hi","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Howdy!","Hey!","How's it going? What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me CecilBot!","I'm CecilBot. Chirp! Chirp!","I'm CecilBot, your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["Pomona College offers about 600 courses every school year. There are 48 majors offered, as well.\nStudents can additionally take courses at the other 4 Claremont Colleges. In total, The Claremont Colleges offers more than 2000 courses."]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long are courses each day", "are some courses longer than a semester"],
+  "responses": ["Most of our courses last for a semester. Some courses may only be offered only in the Fall or Spring semester. There is no gurantee that a desired course will be provided in the upcoming semester."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Pomona College is located in Claremont, California. It shares a square mile campus with the other four Claremont Colleges: Claremont McKenna College, Harvey Mudd College, Pitzer College and Scripps College.\n\nYou can find more info here: https://www.pomona.edu"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a school year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["There are 16 weeks in each semester, including the final exam week."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["Requirements & information for incoming first-year students and transfer students can be found here: https://www.pomona.edu/admissions-aid#first-year-admissions"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?","how big are the classes"],
+  "responses": ["Students can have from 0 to 4 classes on any given weekday. Class lengths largely vary by course and can be from 30 minutes in length to 3 hours long. The average class size is about 15 students."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Here at Pomona, we value providing a rigorous Liberal Arts curriculum. All students will have studied within the arts, humanities, natural & social sciences and interdisciplinary fields by the time they graduate. Classes are taught in the styles of lecture, seminar or independent research study."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["Final exams will be the final week of every semester. Exam lengths, requirements and grading will vary by course."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["Please check our website for current hours of our various offices: https://www.pomona.edu"]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program", "are there any clubs", "can I join a club", "how many clubs are there"],
+  "responses": ["Absolutely! There are more than 250 clubs on campus, and you can even create your own. Besides clubs, students can meet the campus's other 8000+ students through campus jobs, organizations/affinity groups, PE courses, excursions, and more!"]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["Along with resources provided at the other Claremont Colleges, we provide a biological field station, theatre & dance facilities, the third-largest library collection in California, 24/7 access to academic buildings, a planetarium, an artificial intelligence lab, and more!\n\nPlease contact the College to learn about more provided facilities and their resources."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Admitted students will be responsible for a $500 commitment fee once they officially commit to the college. Students can apply for financial aid, as we work on a need-based system. Tuition for 1 year at Pomona College is about $88168."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya","Bye"],
+  "responses": ["Til next time, friend!","Talk you, later!","Goodbye :)"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you. Please retype your inquiry.", "Not sure I understand... can you reword that?"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
